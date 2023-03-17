@@ -45,6 +45,21 @@ box-sizing: border-box;
     transform: scaleX(1);
 }
 
+.marvelgif {
+    margin: 0;
+    background: rgba(50, 0, 0, 1);
+    height: 80vh;
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+}
+
+svg {
+    width: 90vw;
+    aspect-ratio: 16/9;
+}
+
+
 
 
 
