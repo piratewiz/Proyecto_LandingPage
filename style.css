@@ -51,7 +51,7 @@ box-sizing: border-box;
 .marvelgif {
     margin: 0;
     background-image: url(./assets/images/comic.jpg);
-    height: 100vh;
+    height: 90vh;
     display: grid;
     place-content: center;
     overflow: hidden;
@@ -64,15 +64,18 @@ svg {
 }
 
 
-#newsxmen {
+
+ #newsxmen {
+    background-image: url(https://cdn.mos.cms.futurecdn.net/Hz6MRBkan4ZsEGgbFX9UUR-1200-80.jpg);
+    background-repeat: no-repeat;
     margin: 0px;
     padding: 0px;
-    padding-top: 3rem;
-    padding-left: 3rem;
+    padding-top: 22rem;
+    padding-left: 4rem;
     width: 100%;
+    height: 600px;
     display: grid;
 }
-
 
 
 
@@ -83,7 +86,19 @@ div .buttons {
     flex-direction: column;
     width: 200px;
     gap: 1rem;
+    padding-top: 13px;
 }
+
+.xmencontainer {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+
+
 
 .button1
 .button2 {
