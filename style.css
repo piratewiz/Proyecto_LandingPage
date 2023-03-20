@@ -9,6 +9,34 @@ margin: 0;
 box-sizing: border-box;
 }
 
+span {
+    font-size: 13px;
+}
+
+.milesmorales {
+    font-size: 20px;
+    color: rgb(80, 76, 76);
+}
+
+.ten {
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.ten h1 {
+    font-size:34px; font-weight:500; text-transform:uppercase;
+  }
+  .ten h1:before {
+      background-color: #c50000;
+      border-radius: 0.25rem;
+      content: '';
+      display: block;
+      height: 0.25rem;
+      width: 60px;
+      margin-bottom: 1.25rem;
+  }
+
+
 .header {
     position: fixed;
     top: 0;
@@ -101,6 +129,27 @@ div .buttons {
 
 
 
+
+ul {
+    margin-left: 3.3rem;
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 520px;
+    width: 885px;
+    list-style: none;
+    text-decoration: none;
+    gap: 22px;
+    
+}
+
+li img {
+    width: 216px;
+    max-width: 300px;
+    height: 370px;
+}
+
 .button1
 .button2 {
     -webkit-touch-callout: none;
@@ -136,6 +185,7 @@ div .buttons {
       outline: none;
   }
 
+  
 .frase {
     display: flex;
     justify-content: center;
