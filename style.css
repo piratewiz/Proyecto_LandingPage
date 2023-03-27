@@ -25,6 +25,7 @@ h2 {
 
 .ten > h1 {
     font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
 }
 
 .ten > h1:hover {
@@ -43,6 +44,8 @@ p {
 
 .trending_news > h1 {
     font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    width: 220px;
 }
 
 .milesmorales {
@@ -324,12 +327,16 @@ span {
     margin: 0;
     margin-top: 40px;
     width: 100%;
-    background-color: #c50000;
   }
 
   .choosehero > h1 {
     font-family: 'Anton', sans-serif;
     letter-spacing: 2px;
+  }
+
+  .choosehero > h1:hover {
+    text-shadow: red -3px 0;
+    cursor: pointer;
   }
 
 
