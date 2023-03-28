@@ -340,6 +340,76 @@ span {
   }
 
 
+  .gallery_heroes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    height: 500px;
+    box-shadow: 5px 5px 20px black;
+    margin: 50px;
+    overflow: hidden;
+    background-color: #0f0f0f;
+  }    
+
+  .card:hover {
+    cursor: pointer;
+  }
+
+  .card img {
+    height: 530px;
+    width: 330px;
+    border-radius: 3px;
+  }
+
+  .intro {
+    background-color: rgb(27, 27, 27, 0.5);
+    margin-top: 136px;
+    height: 70px;
+    width: 330px;
+    padding: 6px;
+    bottom: 240px;
+    box-sizing: border-box;
+    position: relative;
+    color: rgb(255, 255, 255);
+  }
+
+  .intro > h1 {
+    margin: 15px;
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+  }
+
+  .intro > p {
+    margin: 10px;
+    font-size: 19px;
+    font-family: 'Kanit', sans-serif;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .card:hover .intro {
+    height: 280px;
+    bottom: 310px;
+    background-color: transparent;
+    transition: 0.4s ease;
+  }
+
+  .card:hover p {
+    opacity: 1;
+    visibility: visible;
+    color: rgb(255, 255, 255);
+  }
+
+  .card:hover img {
+    transform: scale(1.1);
+    transition: 0.4s ease;
+  }
 
 
 
