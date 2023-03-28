@@ -412,6 +412,44 @@ span {
   }
 
 
+  .unlimited {
+    background-color: #c50000;
+    height: 500px;
+    margin: 0;
+    padding: 50px;
+    width: 60%;
+    display: grid;
+  }
+
+  .description {
+    background: blueviolet;
+    height: 400px;
+    width: 40%;
+  }
+
+  .wallpaper {
+    background-image: url(./assets/images/spiderman3.jpg);
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 592px;
+    margin-top: -450px;
+    position: sticky;
+  }
+
+  .wallpaper img {
+    height: 350px;
+    width: 250px;
+  }
+
+  figure img {
+    height: 90px;
+    width: 90px;
+  }
+
+  
 
   
 
