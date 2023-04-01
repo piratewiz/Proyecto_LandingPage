@@ -42,6 +42,19 @@ p {
     color: rgb(219, 218, 218);
 }
 
+.paragraph > h1 {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+}
+
+.paragraph > p {
+  font-family: 'Kanit', sans-serif;
+}
+
+.paragraph {
+  color: rgb(238, 55, 55);
+}
+
 .trending_news > h1 {
     font-family: 'Anton', sans-serif;
     letter-spacing: 1px;
@@ -413,7 +426,7 @@ span {
 
 
   .unlimited {
-    background-color: #c50000;
+    background-color: #0f0f0f;
     height: 500px;
     margin: 0;
     padding: 50px;
@@ -422,35 +435,172 @@ span {
   }
 
   .description {
-    background: blueviolet;
     height: 400px;
-    width: 40%;
+    width: 50%;
+    padding: 32px;
   }
 
-  .wallpaper {
-    background-image: url(./assets/images/spiderman3.jpg);
-    height: 500px;
-    width: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 592px;
-    margin-top: -450px;
-    position: sticky;
+  .btnunlimited {
+    margin: 30px;
+  }
+
+
+  .wallpaper1 > img {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 500px;
+  width: 480px;
+  margin-top: -450px;
+  margin-left: 612px;
+  filter: blur(3px);
+  }
+
+
+  .description > .paragraph {
+    margin: 15px 6px;
+  }
+
+  .description > .header2{
+    margin-left: 8px;
   }
 
   .wallpaper img {
+    margin-top: -420px;
+    margin-left:725px;
     height: 350px;
     width: 250px;
+    position: absolute;
+  }
+
+  .wallpaper > img:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
   }
 
   figure img {
     height: 90px;
     width: 90px;
+    margin-left: 25px;
+    margin-bottom: 15px;
   }
 
+
+
+  .cardnews {
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid transparent;
+    margin-left: 1180px;
+    margin-top: -400px;
+    height: 380px;
+    width: 330px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+
+  }
+
+  .contentnews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    margin-top: -5px;
+    gap: 10px;
+  }
+
+  .contentnews > .title {
+    color: #111827;
+    font-size: 1.140rem;
+    font-weight: 560;
+  }
+
+  .contentnews > p {
+    color: #3a3f4b;
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+  }
+
+  .contentnews > a {
+    text-decoration: none;
+    color: rgb(219, 218, 218);
+    background-color: #c50000;
+    width: 120px;
+    font-weight: 400;
+    padding: 5px 10px;
+    border-radius: 4px;
+    align-items: center;
+  }
+
+  .headerimage > img {
+    object-fit: cover;
+    width: 100%;
+    margin: 0;
+    margin-top: -70px;
+  }
   
 
+  .cardnews2 {
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid transparent;
+    margin-left: 1530px;
+    margin-top: -410px;
+    height: 380px;
+    width: 340px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+
+  }
+
+  .contentnews2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    margin-top: -5px;
+    gap: 10px;
+  }
+
+  .contentnews2 > .title {
+    color: #111827;
+    font-size: 1.140rem;
+    font-weight: 560;
+  }
+
+  .contentnews2 > p {
+    color: #3a3f4b;
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+  }
+
+  .contentnews2 > a {
+    text-decoration: none;
+    color: rgb(219, 218, 218);
+    background-color: #c50000;
+    width: 120px;
+    font-weight: 400;
+    padding: 5px 10px;
+    border-radius: 4px;
+    align-items: center;
+  }
+
+  .headerimage2 > img {
+    object-fit: cover;
+    width: 100%;
+    margin: 0;
+    margin-top: -52px;
+    height: 190px;
+  }
+  
   
 
 
