@@ -23,6 +23,13 @@ h2 {
     color: whitesmoke;
 }
 
+footer li {
+  font-size: 15px;
+  font-weight: 600;
+  color: ;
+  list-style: none;
+}
+
 .ten > h1 {
     font-family: 'Anton', sans-serif;
     letter-spacing: 1px;
@@ -147,8 +154,7 @@ header {
 }
 
 .nav a {
-    position: relative;
-    font-family: 'Anton', sans-serif;
+    position: absolute;    font-family: 'Anton', sans-serif;
     font-size: 1.3rem;
     color: white;
     text-decoration: none;
@@ -677,7 +683,7 @@ span {
     margin-top: 20px;
   }
 
-  .streaming > a {
+  .streaming a {
     background-color: rgb(196, 192, 192);
     font-weight: 600;
     padding: 10px;
@@ -779,15 +785,125 @@ span {
 }
 
 footer {
-  background-color: #111827;
+  background-color: rgb(22, 22, 22);
   height: 450px;
   width: 100%;
   margin: 0;
   display: flex;
+  align-items: center;
 }
-  
-  
 
+  
+footer .about {
+  margin-left: ;
+  justify-content: center;
+  margin-left: 400px;
+  height: 250px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .about ul {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  text-decoration: none;
+}
+
+footer .stream_footer {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 310px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+footer .stream_footer ul {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  text-decoration: none;
+}
+
+
+.subs_footer {
+  margin-left: 20px;
+  margin-top: 40px;
+  width: 330px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.marvel_insider > h3 {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #a8a8a8;
+}
+
+.marvel_insider > span {
+  color: #7c7b7b;
+  font-family: 'Kanit', sans-serif;
+  font-size: 13px;
+}
+
+.marvel_unlimited > span {
+  color: #7c7b7b;
+  font-family: 'Kanit', sans-serif;
+  font-size: 13px;
+}
+
+.marvel_unlimited > h3 {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #a8a8a8;
+}
+
+.icon_footers {
+  height: 150px;
+  margin-left: 30px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.iconfooter1 img {
+  width: 55px;
+  height: 35px;
+}
+
+.iconfooter2 img {
+  width: 55px;
+  height: 40px;
+}
+
+.footer_logo img {
+  margin-top: -30px;
+  margin-left: 290px;
+  position: absolute;
+}
+
+footer .about li {
+  font-weight: 700;
+  color: #a8a8a8;
+  font-family: 'Kanit', sans-serif;
+}
+
+footer .stream_footer li {
+  color: #a8a8a8;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
 
 
 
