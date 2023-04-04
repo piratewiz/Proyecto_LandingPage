@@ -30,7 +30,8 @@ h2 {
 
 .ten > h1:hover {
     text-shadow: red -3px 0;
-    cursor: pointer;               
+    cursor: pointer; 
+    transition: 0.2s;              
 }
 
 .trending_news > h1:hover {
@@ -66,6 +67,7 @@ p {
     font-family: 'Anton', sans-serif;
     letter-spacing: 1px;
     width: 220px;
+    transition: 0.2s;
 }
 
 .milesmorales {
@@ -452,7 +454,6 @@ span {
   }
 
   .socialmedia {
-    background-color: ;
     height: 30px;
     width: 410px;
     position: absolute;
@@ -474,7 +475,7 @@ span {
   }
 
   .social li {
-    color: rgb(141, 143, 143);
+    color: rgb(90, 90, 90);
     list-style-type: none;
     display: inline-block;
     width: 50px;
@@ -660,7 +661,7 @@ span {
 
   .movies-comics-info {
     width: 27%;
-    height: 300px;
+    height: 330px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -683,6 +684,10 @@ span {
     text-decoration: none;
     color: rgb(22, 22, 22);
     border-radius: 5px;
+  }
+
+  .streaming:hover {
+    cursor: pointer;
   }
 
 
@@ -716,12 +721,70 @@ span {
   }  
 
   .main-wallpaper img:hover {
-    transform: scale(1.1);
-    transition: 0.3s ease;
+    transform: scale(1.05);
+    transition: 0.4s ease;
   }
 
 
 
+.comic_pack {
+  background-color: white;
+  height: 350px;
+  width: 1180px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 360px;
+  margin-top: -40px;
+}
+
+.pack2 {
+  margin-left: 26px;
+}
+
+.pack2 li img {
+  margin-top: -40px;
+  height: 250px;
+  width: 170px;
+  border-radius: 0px;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 30px #a8a8a8,
+             -5px -5px 20px #ffffff;
+}
+
+.pack2 li img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+
+.pack2 li span {
+  margin-top: 5px;
+  color: rgb(105, 102, 102);
+  font-weight: 600;
+}
+
+.pack2 li h3 {
+  color: black;
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+}
+
+.footerend {
+  width: 100%;
+  height: 400px;
+}
+
+footer {
+  background-color: #111827;
+  height: 450px;
+  width: 100%;
+  margin: 0;
+  display: flex;
+}
   
   
 
