@@ -111,7 +111,7 @@ p {
     margin-top: 80px;
     display: grid;
     place-items: center;
-    background-color: #990606;
+    background-color: rgba(0, 0, 0, 0.534);
 }
 
 
@@ -145,7 +145,7 @@ header {
     width: 100%;
     height: 80px;
     padding: 20px 100px;
-    background-color: #c50000;
+    background-color: rgb(15, 15, 15);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -153,15 +153,17 @@ header {
     transition: 0.3s ease;
 }
 
-.nav a {
-    position: absolute;    font-family: 'Anton', sans-serif;
-    font-size: 1.3rem;
+
+nav a {
+    position: relative;    
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.4rem;
     color: white;
     text-decoration: none;
     margin-left: 40px;
 }
 
-.nav a::after {
+nav a::after {
     content: '';
     position: absolute;
     left: 0;
@@ -171,10 +173,10 @@ header {
     background: rgb(243, 243, 243);
     border-radius: 5px;
     transform: scaleX(0);
-    transition: 0.5s;
+    transition: 0.6s;
 }
 
-.nav a:hover::after {
+nav a:hover::after {
     transform: scaleX(1);
 }
 
@@ -493,7 +495,6 @@ span {
     transition: ease .3s;
     &:hover {
       color: rgba(167, 146, 129, 1);
-      border: 1px solid rgba(167, 146, 129, 1);
     }
   }
 
@@ -841,7 +842,7 @@ footer .stream_footer ul {
 
 .marvel_insider > h3 {
   font-family: 'Anton', sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-size: 15px;
   font-weight: 600;
   color: #a8a8a8;
@@ -861,7 +862,7 @@ footer .stream_footer ul {
 
 .marvel_unlimited > h3 {
   font-family: 'Anton', sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-size: 15px;
   font-weight: 600;
   color: #a8a8a8;
@@ -869,7 +870,7 @@ footer .stream_footer ul {
 
 .icon_footers {
   height: 150px;
-  margin-left: 30px;
+  margin-left: -30px;
   margin-top: 40px;
   display: flex;
   flex-direction: column;
@@ -879,6 +880,7 @@ footer .stream_footer ul {
 .iconfooter1 img {
   width: 55px;
   height: 35px;
+  margin-top: 10px;
 }
 
 .iconfooter2 img {
@@ -906,9 +908,80 @@ footer .stream_footer li {
 }
 
 
+.socialmedia_footer {
+  height: 100px;
+  width: 200px;
+  margin-left: -20px;
+}
+
+.socialmedia_footer > h3 {
+  margin: 30px;
+font-size: 16px;
+font-weight: 600;
+font-family: 'Anton', sans-serif;
+letter-spacing: 1px;
+color: #a8a8a8;
+}
+
+.socialmedia_footer ul {
+  position: relative;
+  margin: 0; 
+  height: 10px;
+  margin-top: -70px;
+}
+
+.social_footer:hover > li {
+  opacity: 0.5;
+}
+
+.social_footer:hover > li:hover {
+  opacity: 1;
+  color: #d63838;
+  transition: 0.3s;
+}
 
 
+.social_footer li {
+  color: rgb(90, 90, 90);
+  list-style-type: none;
+  display: inline-block;
+  width: 10px;
+  height: 50px;
+  padding: 1%;
+  cursor: pointer;
+  margin-left: 4px;
+  margin-bottom: 20px;
+  transition: ease .3s;
+  &:hover {
+    color: rgba(167, 146, 129, 1);
+  }
+}
 
+.privacy_footer {
+  position: absolute;
+  margin-top: 340px;
+  margin-left: 480px;
+  height: 20px;
+  width: 900px;
+}
+
+.socialmedia_footer > h3 {
+  letter-spacing: 2px;
+}
+
+.privacy {
+  height: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.privacy li {
+  margin-top: -30px;
+  color: #7c7b7b;
+  font-family: 'Kanit', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+}
 
 
 
