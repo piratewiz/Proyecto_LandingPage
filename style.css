@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit:wght@300;400&family=Stick+No+Bills:wght@500&display=swap');
 
+
 :root {
   --color-p: rgb(219, 218, 218);
   --color-h2: whitesmoke;
@@ -88,7 +89,9 @@ p {
 }
 
 .milesmorales {
-    font-size: 20px;
+    margin-top: -1px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
     color: rgb(105, 102, 102);
 }
 
@@ -160,7 +163,7 @@ p {
 
 
 header {
-    position: fixed;
+    position: absolute;
     left: 0;
     width: 100%;
     height: 80px;
@@ -1013,12 +1016,14 @@ footer .stream_footer li {
   header, nav {
     display: flex;
 }
+
 header {
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
     max-width: 768px;
 }
+
 header img {
   margin-top: -50px;
 }
@@ -1026,6 +1031,122 @@ header nav a {
   font-size: 16px;
   margin-top: 14px;
 }
+
+.marvelgif {
+  height: 600px;
+}
+
+svg {
+  margin-top: 130px;
+}
+
+#newsxmen{
+  margin: 0;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://media.s-bol.com/z92EKqx9VVrY/JyRqE7l/549x840.jpg);
+}
+
+.xmencontainer >h2 {
+  color: #64235c;
+  font-family: 'Kanit', sans-serif;
+  letter-spacing: 2px;
+}
+
+.xmencontainer > p {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+  color: #080808;
+}
+
+.ten {
+  margin-left: 2px;
+  justify-content: center;
+}
+
+.ten > h1 {
+  font-size: 30px;
+  margin-top: -30px;
+}
+
+.ten > span {
+  margin-top: -1px;
+  font-family: 'Kanit', sans-serif;
+  font-size: 18px;
+}
+
+.milesmoralespack {
+  margin: 0;
+}
+
+.milesmoralespack ul {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2em;
+  justify-content: space-around;
+}
+
+.milesmoralespack li img {
+  margin-top: -40px;
+  margin-left: 5px;
+  height: 200px;
+  width: 130px;
+}
+
+.milesmoralespack li a {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.milesmoralespack li span {
+  margin-left: 10px ;
+}
+
+.gallery_heroes {
+  display: flex;
+  flex-direction: column;
+}
+
+.unlimited {
+  width: 100%;
+}
+
+.description {
+  margin-left: -70px;
+}
+
+.cardnews {
+  margin: 0;
+  margin-top: 80px;
+  margin-left: 70px;
+  position: relative;
+}
+
+.cardnews2 {
+  margin: 0;
+  margin-left: 70px;
+  position: relative;
+}
+
+.socialmedia {
+  margin-left: -22px;
+}
+
+.movies-comics-info {
+  margin: 0;
+  margin-left: 30px;
+}
+
+.movies-comics-info img {
+  display: none;
+}
+
+.paragraph > span {
+  font-weight: 500;
+}
+
 }
 
 
