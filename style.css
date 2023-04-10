@@ -1114,12 +1114,15 @@ svg {
 }
 
 .description {
-  margin-left: -70px;
+  margin-left: -50px;
+  margin-top: -40px;
+  width: 500px;
 }
+
 
 .cardnews {
   margin: 0;
-  margin-top: 80px;
+  margin-top: 100px;
   margin-left: 70px;
   position: relative;
 }
@@ -1130,8 +1133,16 @@ svg {
   position: relative;
 }
 
+.wallpaper1 {
+  display: none;  
+}
+
+.trending_news {
+  display: none;
+}
+
 .socialmedia {
-  margin-left: -22px;
+  margin-left: -42px;
 }
 
 .movies-comics-info {
@@ -1146,6 +1157,45 @@ svg {
 .paragraph > span {
   font-weight: 500;
 }
+
+.streaming > a {
+  font-size: 11px;
+}
+
+.comic_pack {
+  margin: 0;
+}
+
+.back-wallpaper img {
+  width: 270px;
+}
+
+.main-wallpaper {
+  display: none;
+}
+
+.pack2 {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  gap: 3em;
+  margin-left: 15px;
+}
+
+.pack2 li a {
+  font-size: 13px;
+}
+
+footer {
+  margin-top: 560px;
+}
+
+.footer_logo img {
+  margin: 0;
+  margin-top: -200px;
+  margin-left: 200px;
+}
+
 
 }
 
