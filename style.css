@@ -1012,7 +1012,7 @@ footer .stream_footer li {
 }
 
 
-@media screen and (min-width: 376px) and (max-width: 768px) {
+@media screen and (min-width: 376px)and (max-width: 768px) {
   header, nav {
     display: flex;
 }
@@ -1245,8 +1245,8 @@ footer {
   width: 400px;
   margin-top: -220px;
 }
-
 }
+
 
 
 

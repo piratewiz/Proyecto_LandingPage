@@ -9,3 +9,7 @@ ORGANIZACIÓN Y PUNTOS A TENER EN CUENTA :
 4. La web incorpora noticias y productos Marvel
 5. Se utiliza una alineación horizontal en todas las secciones
 6. Crear web responsive para móvil (menor de 375px)
+
+-Página de inspiración marvel.com
+-Iconos e imágenes cogidas de google y icons8
+
